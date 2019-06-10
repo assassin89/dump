@@ -1,0 +1,42 @@
+git commands help
+-----------------
+
+* Install git   
+sudo apt-get install git-all
+
+
+git init
+
+git status
+
+git add -- to add files
+
+// config
+username and user-email
+
+git config --global user.name "name"
+git config --global user.email "email.com"
+
+git commit -m "commit message"
+
+
+//git add remote repository
+git remote add -u origin <URL> ( https/ssh )
+
+git push -u origin master
+
+
+/// pull a branch
+git pull origin master
+
+// clong a branch
+git clone <name of the clone>
+or try git clone origin master
+
+git diff -- to check diffs betwen versions before adding to staing area
+git diff --cached -- afer adding to stating area
+
+// 
+git branch -- shows a list of all brances
+
+git checkout -- moves to the branch specified
